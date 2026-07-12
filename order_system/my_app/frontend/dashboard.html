@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | Order & Inventory System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Dashboard</h1>
+    <p id="user-info"></p>
+
+    <button onclick="logout()">Logout</button>
+
+    <hr>
+
+    <h2>Products</h2>
+    <button onclick="loadProducts()">Load Products</button>
+    <div id="products"></div>
+
+    <hr>
+
+    <h2>Inventory</h2>
+    <button onclick="loadInventory()">Load Inventory</button>
+    <div id="inventory"></div>
+
+    <hr>
+
+    <h2>Orders</h2>
+    <button onclick="loadOrders()">Load Orders</button>
+    <div id="orders"></div>
+
+    <hr>
+
+    <h2>Audit Logs</h2>
+    <button onclick="loadAudit()">Load Audit Logs</button>
+    <div id="audit"></div>
+
+    <hr>
+
+    <h2>Alerts</h2>
+    <button onclick="loadAlerts()">Load Alerts</button>
+    <div id="alerts"></div>
+
+</div>
+
+</body>
+</html>

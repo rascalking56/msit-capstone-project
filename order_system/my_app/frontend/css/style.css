@@ -1,0 +1,42 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button, .btn {
+    padding: 10px 15px;
+    background: #0078ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover, .btn:hover {
+    background: #005fcc;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+#products, #inventory, #orders, #audit, #alerts {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
