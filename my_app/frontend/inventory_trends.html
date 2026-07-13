@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Trends</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="inventory_trends.js" defer></script>
+</head>
+<body>
+    <h1>Inventory Trends</h1>
+    <canvas id="trendChart"></canvas>
+
+    <h2>Low Stock Alerts</h2>
+    <button onclick="loadLowStock()">Load Alerts</button>
+    <pre id="lowStockOutput"></pre>
+
+    <h2>Auto Restock</h2>
+    <button onclick="autoRestock()">Run Auto Restock</button>
+    <pre id="autoRestockOutput"></pre>
+</body>
+</html>

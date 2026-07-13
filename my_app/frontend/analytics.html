@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analytics Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="analytics.js" defer></script>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        canvas { margin-bottom: 40px; }
+    </style>
+</head>
+<body>
+    <h1>Analytics Dashboard</h1>
+
+    <h2>Sales by Day</h2>
+    <canvas id="salesChart"></canvas>
+
+    <h2>Revenue by Day</h2>
+    <canvas id="revenueChart"></canvas>
+
+    <h2>Top Selling Products</h2>
+    <canvas id="topProductsChart"></canvas>
+
+    <h2>Low Stock Products</h2>
+    <pre id="lowStockOutput"></pre>
+</body>
+</html>

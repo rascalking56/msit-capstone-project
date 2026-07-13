@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="inventory.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 p-6">
+    <h1 class="text-3xl font-bold mb-6">Inventory Dashboard</h1>
+
+    <div class="bg-white p-4 rounded shadow mb-6">
+        <h2 class="text-xl font-semibold mb-2">Inventory Levels</h2>
+        <canvas id="inventoryChart"></canvas>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+        <h2 class="text-xl font-semibold mb-2">Smart Inventory Predictions</h2>
+        <ul id="predictionList" class="list-disc pl-6"></ul>
+    </div>
+</body>
+</html>

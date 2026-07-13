@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="admin.js"></script>
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200">
+
+    <!-- Navigation -->
+    <div id="navbar"></div>
+
+    <div class="p-6">
+        <h1 class="text-3xl font-bold mb-6">Admin Portal</h1>
+
+        <div class="grid grid-cols-3 gap-6">
+
+            <a href="analytics.html" class="bg-white dark:bg-gray-700 p-6 rounded shadow hover:shadow-lg">
+                <h2 class="text-xl font-semibold">Analytics Dashboard</h2>
+                <p>View sales, revenue, top products, heatmaps.</p>
+            </a>
+
+            <a href="inventory.html" class="bg-white dark:bg-gray-700 p-6 rounded shadow hover:shadow-lg">
+                <h2 class="text-xl font-semibold">Inventory Dashboard</h2>
+                <p>Track stock levels and smart predictions.</p>
+            </a>
+
+            <a href="sessions.html" class="bg-white dark:bg-gray-700 p-6 rounded shadow hover:shadow-lg">
+                <h2 class="text-xl font-semibold">Sessions Dashboard</h2>
+                <p>View device sessions and security activity.</p>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+</html>

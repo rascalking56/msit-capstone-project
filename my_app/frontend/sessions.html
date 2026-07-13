@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sessions Dashboard</title>
+    <script defer src="sessions.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 p-6">
+    <h1 class="text-3xl font-bold mb-6">Device Sessions</h1>
+
+    <table class="min-w-full bg-white rounded shadow">
+        <thead>
+            <tr class="border-b">
+                <th class="p-3 text-left">Device ID</th>
+                <th class="p-3 text-left">IP Address</th>
+                <th class="p-3 text-left">User Agent</th>
+                <th class="p-3 text-left">Created</th>
+                <th class="p-3 text-left">Expires</th>
+                <th class="p-3 text-left">Revoked</th>
+            </tr>
+        </thead>
+        <tbody id="sessionTable"></tbody>
+    </table>
+</body>
+</html>
